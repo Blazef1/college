@@ -1,22 +1,25 @@
-import sys
-number= input("Введите число\n")
-print(type(number))
-number1= int(input("Введите 2 число \n"))
-print(type(number1))
-number2= bool(input("Введите 3 число \n"))
-print(type(number2))
-number3= complex(input("Введите 4 число \n"))
-print(type(number3))
-number4= float(input("Введите 5 число \n"))
-print(type(number4))
-import sys
-print("max int\n",sys.maxsize)
-print("max float\n",sys.float_info.max)
-print("вывод байт в cp1251\n")
-print(len('я люблю динамическую типизацию'.encode('cp1251')))
-print("вывод байт в utf-8\n")
-print(len('я люблю динамическую типизацию'.encode('utf-8')))
-print("вывод байт в utf-16\n")
-print(len('я люблю динамическую типизацию'.encode('utf-16')))
-print("вывод байт в utf-32\n")
-print(len('я люблю динамическую типизацию'.encode('utf-32')))
+#a = 5
+#b = 6
+#print((a-b)*(a+b))
+#print((a**2-2*a*b+b**2))
+#print(a**2+2*a*b+b**2)
+#print(a**3-3*a**2*b+3*a*b**2-b**3)
+#print(a**3+3*a**2*b+3*a*b**2+b**3)
+#print((a+b)*(a**2-a*b+b**2))
+#print((a-b)*(a**2-a*b+b**2))
+
+a = 2
+b = 3
+c = 5
+y1 = a*a
+y2 = a+c
+y3 = y2**2
+y4 = y1+y3
+y5 = 10*b
+y6 = y4/y5
+y7 = c**2
+y8 = a*y7
+y9 = 5*y8
+y10 = y6-y9
+y11= y10**-1/2
+print(y11)
